@@ -13,7 +13,7 @@ jobs:
 
       - name: Check
         run: |
-          if [[ -f Dockerfile ]]; then
+          if [[ -f README.md ]]; then
             echo "We appear to have checkout out the repository"
           else
             echo "Checkout failed"
